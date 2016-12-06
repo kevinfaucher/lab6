@@ -21,7 +21,7 @@ public class DeckException extends Exception implements Serializable  {
 	public DeckException(Deck d, eDeckExceptionType eT) {
 		super();
 		this.d = d;
-		this.eT = eT; 
+		this.eT = eT;
 	}
 
 	public Deck getD() {
